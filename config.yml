@@ -66,14 +66,14 @@ params:
               url: projects/
             - name: Books
               url: books/
-            - name: Coursework
-              url: courses/
+            - name: Events
+              url: events/
             - name: Creative
               url: creative/
 
     socialIcons:
-        - name: CV
-          url: cv.pdf
+        - name: Resume
+          url: resume-tylery.pdf
         - name: Email
           url: mailto:tylery@andrew.cmu.edu
         - name: Google Scholar

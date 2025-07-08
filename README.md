@@ -5,6 +5,7 @@
 - [ ] Papers Section
 
 ## Completed
+- [X] Events page for hackathons and the like
 - [X] Piano performances from YT
 - [X] AP 3-D Art and Design portfolio
 
