@@ -13,6 +13,11 @@ For some reason (e.g., they are solutions to my coursework), I cannot share code
 - writing a terminal shell
 - implemented in C
 
+### Transformer Encoder & Decoder, MAIL @ CMU
+- encoder for solubility prediction
+- decoder for retrosynthetic prediction of reactants from products
+- implemented in PyTorch
+
 ### Turing Machine Simulator, 15-251 @ CMU
 - and some Karp reductions (computational complexity)
 - implemented in Python
