@@ -18,15 +18,9 @@ menu:
         - name: Creative
           url: creative/
           weight: 3
-        - name: Courses
-          url: courses/
-          weight: 3
         - name: Papers
           url: papers/
           weight: 2
-        - name: Books
-          url: books/
-          weight: 5 
 
 params:
     description: "This website hosts Tyler Yang's resume/CV, academic history, and personal reading list/notes."
@@ -64,8 +58,8 @@ params:
               url: papers/
             - name: Projects
               url: projects/
-            - name: Books
-              url: books/
+            # - name: Books
+            #   url: books/
             - name: Events
               url: events/
             - name: Creative
