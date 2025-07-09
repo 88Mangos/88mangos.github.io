@@ -10,10 +10,12 @@ cover:
     relative: true
 editPost:
     URL: "https://medium.com/@tjyang2005/the-hough-transform-in-image-processing-2fc1e453ebc9"
-    Text: "Link to Accompanying Medium Blog Post"
+    Text: "Medium Blog Post"
 ---
 
 ##### Jupyter Notebook
+
+If you want to run the Hough Transform Jupyter Notebook, download [HoughTransform.ipynb](https://github.com/88Mangos/88mangos.github.io/blob/main/content/projects/2023-06_Hough_Transform/HoughTransform.ipynb) and run everything inside the notebook. There are no system-specific paths required, just an updated version of Matplotlib and NumPy.
 
 <iframe src="/projects/HoughTransform.html" width="100%" height="800px" style="border: none;">
   Your browser does not support iframes.
