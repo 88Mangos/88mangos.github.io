@@ -14,9 +14,11 @@ editPost:
 ---
 
 ##### Code
-I wrote a few programs for the class: some in Python (Jupyter Notebooks) to familiarize myself with the basic quantum operations. Then, I wrote a program in C to simulate computations using pbits (probablistic bits) and qubits. Check out the [GitHub Repository](https://github.com/88Mangos/15-459-s) for the code, and check out my video solutions to all the exercises on YouTube [15-459, Tyler Yang](https://www.youtube.com/playlist?list=PL3GOEn9w3tYw-xPtlSl2BJiwPpruxQrwL). 
+I wrote a few programs for the class: some in Python (Jupyter Notebooks) to familiarize myself with the basic quantum operations. Then, I wrote a program in C to simulate computations using pbits (probablistic bits) and qubits. Check out the [GitHub Repository](https://github.com/88Mangos/15-459-s) for the code, and check out [my video solutions](https://www.youtube.com/playlist?list=PL3GOEn9w3tYw-xPtlSl2BJiwPpruxQrwL) to all the exercises on YouTube. 
 
-If you'd like to watch the lectures yourself, Professor O'Donnell has provided them [here](https://www.youtube.com/playlist?list=PLm3J0oaFux3bF48kurxGR6jrmPaQf6lkN)!
+If you'd like to watch the lectures yourself, Professor O'Donnell has provided them [here](https://www.youtube.com/playlist?list=PLm3J0oaFux3bF48kurxGR6jrmPaQf6lkN)! It's a long journey, as my comment under the first video in the series would suggest - but it's worth it!
+
+I have gotten approval to post these solutions to the exercises from Professor O'Donnell. However, don't just look at my solutions - work through the problems yourself. They will be tricky, especially if you have not taken any theoretical computer science (I had not taken 15-251 yet when I self-studied this course) but it will teach you a lot. 
 
 ---
 
