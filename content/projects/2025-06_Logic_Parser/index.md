@@ -12,3 +12,6 @@ editPost:
     URL: "https://github.com/88Mangos/Logic-Parser"
     Text: "GitHub: Logic Parser Code"
 ---
+Not much to see here. Just checkout the GitHub at the link above.
+
+---
