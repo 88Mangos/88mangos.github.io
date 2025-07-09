@@ -27,9 +27,18 @@
     margin-inline-start: auto;
 }
 
+.social-icons {
+  display: flex;
+  align-items: center;
+}
+
+.social-icons span {
+  padding: 0px 8px
+}
+
 .social-icons a {
     display: inline-flex;
-    padding: 10px 14px 10px 0px;
+    padding: 10px 0px 10px 5px;
 }
 
 .social-icons a svg {

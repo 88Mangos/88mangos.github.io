@@ -12,15 +12,18 @@ taxonomies:
 
 menu:
     main:
+        - name: Papers
+          url: papers/
+          weight: 2
+        - name: Events
+          url: events/
+          weight: 2
         - name: Projects
           url: projects/
           weight: 3
         - name: Creative
           url: creative/
           weight: 3
-        - name: Papers
-          url: papers/
-          weight: 2
 
 params:
     description: "This website hosts Tyler Yang's resume/CV, academic history, and personal reading list/notes."
@@ -49,7 +52,7 @@ params:
     profileMode:
           enabled: true
           title: Tyler Yang
-          subtitle: "I am a sophomore at Carnegie Mellon University's School of Computer Science. I do research in machine learning for drug discovery, and more generally AI for Science."
+          subtitle: "I am a sophomore at Carnegie Mellon University's School of Computer Science. I do research in machine learning for drug discovery, and more generally AI for Science. Currently interning at Scale AI."
           imageUrl: "picture.jpeg"
           imageWidth: 160
           imageHeight: 160
