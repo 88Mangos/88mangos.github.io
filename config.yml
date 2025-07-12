@@ -24,6 +24,9 @@ menu:
         - name: Creative
           url: creative/
           weight: 3
+        - name: Blog
+          url: blog/
+          weight: 3
 
 params:
     description: "This website hosts Tyler Yang's resume, academic history, and personal reading list/notes."
@@ -67,6 +70,8 @@ params:
               url: events/
             - name: Creative
               url: creative/
+            - name: Blog 
+              url: blog/
 
     socialIcons:
         - name: Resume
