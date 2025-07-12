@@ -12,8 +12,8 @@
     <a href="{{ trim .url " " | safeURL }}" target="_blank" rel="noopener noreferrer me"
         title="{{ (.title | default .name) | title }}">
         {{ partial "svg.html" . }}
+        <span class="social-name">{{ .name }}</span>
     </a>
-    <span class="social-name">{{ .name }}</span>
     {{- end }}
 </div>
 
