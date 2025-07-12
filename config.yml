@@ -14,19 +14,19 @@ menu:
     main:
         - name: Papers
           url: papers/
-          weight: 2
+          weight: 1
         - name: Events
           url: events/
-          weight: 2
+          weight: 3
         - name: Projects
           url: projects/
-          weight: 3
+          weight: 2
         - name: Creative
           url: creative/
-          weight: 3
+          weight: 4
         - name: Blog
           url: blog/
-          weight: 3
+          weight: 5
 
 params:
     description: "This website hosts Tyler Yang's resume, academic history, and personal reading list/notes."
