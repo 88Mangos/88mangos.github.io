@@ -7,6 +7,12 @@ description: "Various math and programming projects, some for class, others for 
 ---
 For some reason (e.g., they are solutions to my coursework), I cannot share code for the following projects:
 
+### MyTorch, 11-785 @ CMU
+- implementing PyTorch myself (hence "MyTorch"), supporting MLPs, CNNs, RNNs, and other PyTorch functionality just using NumPy
+- implementing an autograd engine for MyTorch
+- implemented in Python
+
+
 ### Computer Systems, 18-213 @ CMU
 - cache simulator and cache optimization of matrix transpose
 - custom malloc implementation
