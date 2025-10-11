@@ -6,7 +6,7 @@ description: "Collaborated with IDQuantique to create a hackathon challenge for 
 summary: "Collaborated with IDQuantique to create a hackathon challenge for the FLIQ Innovation Track, investigating quantum random number generation!"
 cover:
     image: "FLIQ_logo-1-1024x595.png"
-    alt: "ScottyLabs TartanHacks"
+    alt: "QC-FLIQ"
     relative: true
 editPost:
     URL: "https://github.com/88Mangos/CMU-x-IDQuantique-Challenge"
