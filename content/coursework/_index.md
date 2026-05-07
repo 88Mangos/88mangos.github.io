@@ -34,7 +34,9 @@ Onto the things I have an opinion about. 411 became AI-allowed for the first tim
 
 MLSys was super chill for the first 9 weeks. And then the TIRx GEMM assignment hit (writing kernels for Blackwell GPUs specifically, using a DSL that the AI assistants hadn't been trained on yet) and that was evil. Though I heard that was super Claude-Code-able, but I hadn't bought Claude Code yet and was still trying to complete the assignment without coding agents (*411 L5 was the first time I'd ever used coding agents*). The course project also felt a little scuffed - since it was due after compilers, I had Claude write the code after I gave it a scaffold of the algorithms I wanted to implement. It took a few human refactors (coding agents seem to love rewriting functions that already exist because keeping things in context is hard) but it worked out. 
 
-Anyways my favorite part was TA'ing 210. I think it's a bit too recent for me to write a reflection on, but yeah this was the highlight of my semester. *Am I a furry because I wore a cow costume to proctor the final? I personally don't think so...* 
+Anyways my favorite part was TA'ing 210. I think it's a bit too recent for me to write a reflection on, but yeah this was the highlight of my semester. Overhauling CriticalLab and writing the autograder for PowerLab was tedious but honestly pretty cool, and teaching content that I had struggled with just a semester prior was also very rewarding. TA'ing 210 made me so much smarter, both because of the other TAs, the professors, and the course content itself. 
+
+*Am I a furry because I wore a cow costume to proctor the final? I personally don't think so...* 
 
 ## Projects I enjoyed
 - 411: all the labs. Especially Lab LLVM was cool since it's like... real?
@@ -173,3 +175,7 @@ I completed this course while vacationing in Japan and China and honestly, I thi
 
 So begins a common motif in my opinions of CMU courses, which is that the CMU faculty who design the curriculum are much smarter than I am, and therefore I would be wise to follow the path they've set. 
 
+## Projects I enjoyed
+I made these for funsies:
+- Cube Puzzle Blender Animation, because I had just taken AP 3-D Art [[Link]](https://github.com/88Mangos/Cube-Puzzle)
+- Logic Parser because I was worried I had to sharpen up my coding skills [[Link]](https://github.com/88Mangos/Logic-Parser)
