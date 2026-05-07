@@ -1,111 +1,121 @@
+# =========================================================================== #
+# Global Hugo Settings
+# =========================================================================== #
 baseURL: "https://88mangos.github.io/" 
-title: Tyler Yang
-theme: PaperMod
+title: tyler yang
+theme: PaperMod # see themes/PaperMod
 
-enableInlineShortcodes: true
+# =========================================================================== #
+# Hugo Core Features
+# =========================================================================== #
+enableInlineShortcodes: true 
 enableRobotsTXT: true
-pagination:
-  pagerSize: 20
 
+# set number of posts per page 
+pagination:
+  pagerSize: 20 
+# as well as tags folder
 taxonomies:
     tag: tags
 
-menu:
-    main:
-        - name: Papers
-          url: papers/
-          weight: 1
-        - name: Events
-          url: events/
-          weight: 3
-        - name: Projects
-          url: projects/
-          weight: 2
-        - name: Creative
-          url: creative/
-          weight: 4
-        - name: Blog
-          url: blog/
-          weight: 5
-
+# =========================================================================== #
+# PaperMod Theme Parameters
+# =========================================================================== #
 params:
-    description: "This website hosts Tyler Yang's resume, academic history, and personal reading list/notes."
+    description: "Tyler Yang's Personal Website"
     author: Tyler Yang
+    MainSections: ["courses"]
+
     # googleAnalyticsID: "G-XXXXX"
+
+    # ======================================================================= #
+    # Appearance
+    # ======================================================================= #
     DateFormat: "January 2006"
-    defaultTheme: light
-    hideFooter: false
+    hideFooter: true
+    disableAnchoredHeadings: true # hide hashtag anchor symbols next to headings
+    
+    # Dark Mode, no toggle
+    defaultTheme: dark
     disableThemeToggle: true
+    
+    # ======================================================================= #
+    # User Quality of Life 
+    # ======================================================================= #
+    ShowCodeCopyButtons: true
+    disableScrollToTop: true 
+    math: true # MathJax/KaTeX support
+
+    # ======================================================================= #
+    # Post-Related Stuff
+    # ======================================================================= #
     ShowShareButtons: false
     ShowReadingTime: false
     disableSpecial1stPost: true
-    disableAnchoredHeadings: true
     ShowPostNavLinks: false
     ShowBreadCrumbs: false
-    ShowCodeCopyButtons: true
     ShowAllPagesInArchive: false
-    MainSections: ["projects","courses","papers","books"]
-    ShowToc: false
-    disableScrollToTop: true
-    TocOpen: true
     ShowWordCount: false
+    comments: false # no post comments
+
+    
+    ShowToc: false            # no table of contents
+                              # thus options below are irrelevant
+    TocOpen: true 
     UseHugoToc: true
-    comments: false
-    math: true
-    profileMode:
+    cover:                    # visibility of post cover images
+        hiddenInList: false
+        hiddenInSingle: true
+    label:                    # adds label to cover images 
+      text: "Tyler Yang"  
+      icon: favicon.ico
+      iconHeight: 18
+
+# =========================================================================== #
+# Homepage
+# Profile Mode instead of default blog list homepage
+# =========================================================================== # 
+    profileMode: 
           enabled: true
           title: Tyler Yang
-          subtitle: "Sophomore at Carnegie Mellon University's School of Computer Science. Currently interning at Scale AI."
+          subtitle: "CMU School of Computer Science"
           imageUrl: "picture.png"
           imageWidth: 160
           imageHeight: 160
           buttons:
-            - name: Papers
-              url: papers/
-            - name: Projects
-              url: projects/
-            # - name: Books
-            #   url: books/
-            - name: Events
-              url: events/
-            - name: Creative
-              url: creative/
-            - name: Blog 
-              url: blog/
+            - name: Coursework
+              url: coursework/
+            # - name: PLACEHOLDER
+            #   url: path/to/placeholder/
 
     socialIcons:
-        - name: Resume
-          url: resume-tylery.pdf
-        - name: Email
-          url: mailto:tylery@andrew.cmu.edu
-        - name: Google Scholar
-          url: https://scholar.google.com/citations?user=oRAc9acAAAAJ&hl=en
         - name: GitHub
           url: https://github.com/88Mangos
-        - name: YouTube
-          url: https://www.youtube.com/@tylery7041
+        - name: LinkedIn
+          url: https://www.linkedin.com/in/tyler-j-yang/
+        # - name: Email
+        #   url: mailto:tylery[at]andrew[dot]cmu[dot]edu
+
     assets:
         disableScrollBarStyle: true
         favicon16x16: "favicon-16x16.png"
-        # optional additional sizes:
         favicon32x32: "favicon-32x32.png"
         appleTouchIcon: "apple-touch-icon.png"
-    cover:
-        hiddenInList: false
-        hiddenInSingle: true
-    label:
-      text: "Tyler Yang"
-      icon: favicon.ico
-      iconHeight: 18
 
+
+# =========================================================================== #
+# Rendering Engine
+# =========================================================================== #
 markup:
     goldmark:
         renderer:
             unsafe: true
-    highlight:
-        guessSyntax: true
+
+    highlight: # code highlighting 
+        guessSyntax: true # auto detect language
         style: autumn 
-    tableOfContents:
-        endLevel: 2
+
+    tableOfContents: 
+        endLevel: 3
         ordered: false
-        startLevel: 2
+        startLevel: 1
