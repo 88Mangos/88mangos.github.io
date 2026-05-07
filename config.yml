@@ -78,7 +78,7 @@ params:
     profileMode: 
           enabled: true
           title: Tyler Yang
-          subtitle: "Studying CS + Computer Systems at CMU School of Computer Science. This website documents my coursework and projects, and serves as a central hub for my academic things. For example, check out '88Mangos' below for LaTeX poster templates and shortcuts I use."
+          subtitle: "Studying @ CMU School of Computer Science <br><br>I like the number 8, mangos, and playing soccer, hence the GitHub username and icons on this personal website. <br><br>This personal website documents my experiences through coursework and projects, and doubles as a central hub for helpful resources. <br><br>Check out [<u>88Mangos</u>](https://github.com/88Mangos/88Mangos) for a CMU LaTeX (Beamer) poster template, my vimrc and zshrc setup, and LaTeX shortcuts I like to use. <br><br><b>Contact:</b> tylery [at] andrew [dot] cmu [dot] edu"
           imageUrl: "picture.png"
           imageWidth: 160
           imageHeight: 160
@@ -87,8 +87,6 @@ params:
               url: coursework/
             - name: Projects
               url: projects/
-            - name: 88Mangos 
-              url: https://github.com/88Mangos/88Mangos
             # - name: PLACEHOLDER
             #   url: path/to/placeholder/
 
