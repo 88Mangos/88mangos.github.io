@@ -129,7 +129,7 @@ But beyond the technicals, this semester also had two great fun classes. Roots o
 
 CMU traumatizes you into being *extremely bored* when you're at home because the CMU CS environment upregulates your stress so high, you don't know what to do when it comes back down.
 
-I was somewhat interested in quantum computing, and I found that Prof. O'Donnell posted all his lectures online, so I watched *all* of them in 2-3 weeks and did all the homework problems. Some of the homework problems required some AI assistance since I hadn't taken 251, but after taking 241, most of the problems were doable on my own. Prof. O'Donnell gave me permission to upload my solutions to GitHub, so check them out if you're interested [[Link]](https://github.com/88Mangos/15-459-s).
+I was somewhat interested in quantum computing, and I found that Prof. O'Donnell posted all his lectures online, so I watched *all* of them in 2-3 weeks and did all the homework problems. Some of the homework problems required some AI assistance since I hadn't taken 251, but after taking 241, most of the problems were doable on my own. Prof. O'Donnell gave me permission to upload my solutions to GitHub (as well as my code for the pbit and qubit simulators), so check them out if you're interested [[Link]](https://github.com/88Mangos/15-459-s).
 
 # Fall 2024 (52 units)
 - 15-122: Principles of Imperative Computation
