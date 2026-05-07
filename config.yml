@@ -24,7 +24,7 @@ taxonomies:
 params:
     description: "Tyler Yang's Personal Website"
     author: Tyler Yang
-    MainSections: ["courses"]
+    MainSections: ["coursework", "projects"]
 
     # googleAnalyticsID: "G-XXXXX"
 
@@ -78,13 +78,17 @@ params:
     profileMode: 
           enabled: true
           title: Tyler Yang
-          subtitle: "CMU School of Computer Science"
+          subtitle: "Studying CS + Computer Systems at CMU School of Computer Science. This website documents my coursework and projects, and serves as a central hub for my academic things. For example, check out '88Mangos' below for LaTeX poster templates and shortcuts I use."
           imageUrl: "picture.png"
           imageWidth: 160
           imageHeight: 160
           buttons:
             - name: Coursework
               url: coursework/
+            - name: Projects
+              url: projects/
+            - name: 88Mangos 
+              url: https://github.com/88Mangos/88Mangos
             # - name: PLACEHOLDER
             #   url: path/to/placeholder/
 
