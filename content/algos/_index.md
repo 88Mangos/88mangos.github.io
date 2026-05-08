@@ -13,3 +13,6 @@ One time in his office, he said that the best way to learn algorithms is to sit 
 He also mentioned that he does the LeetCode daily problems, but not really daily, as in he'll keep working on a previous day's problem if he hasn't solved it yet.
 
 I'll document my getting stuck moments as best as possible, and hopefully build a record of my brain expanding.
+
+## SPOILER ALERT
+Many of the blog posts below contain solutions to problems. So you probably shouldn't look at them unless you've solved or intend to *never* solve the problem the blog post discusses.
