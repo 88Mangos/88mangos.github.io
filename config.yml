@@ -23,7 +23,6 @@ taxonomies:
 # =========================================================================== #
 params:
     description: "Tyler Yang's Personal Website"
-    author: Tyler Yang
     MainSections: ["coursework", "projects"]
 
     # googleAnalyticsID: "G-XXXXX"
@@ -49,6 +48,7 @@ params:
     # ======================================================================= #
     # Post-Related Stuff
     # ======================================================================= #
+    # author: Tyler Yang # don't want to show author, it's just me anyways
     ShowShareButtons: false
     ShowReadingTime: false
     disableSpecial1stPost: true
@@ -56,6 +56,10 @@ params:
     ShowBreadCrumbs: false
     ShowAllPagesInArchive: false
     ShowWordCount: false
+
+    # see layouts/_default/list.html
+    hideSummary: true
+    hideMeta: false
     comments: false # no post comments
 
     
@@ -64,7 +68,8 @@ params:
     TocOpen: true 
     UseHugoToc: true
     cover:                    # visibility of post cover images
-        hiddenInList: false
+        hidden: true
+        hiddenInList: true
         hiddenInSingle: true
     label:                    # adds label to cover images 
       text: "Tyler Yang"  

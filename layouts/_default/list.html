@@ -75,7 +75,8 @@
   {{- end }}
   {{- if not (.Param "hideMeta") }}
   <footer class="entry-footer">
-    {{- partial "post_meta.html" . -}}
+    <!-- {{- partial "post_meta.html" . -}} -->
+    <span>{{ .Date.Format "Jan 2, 2006" }}</span>
   </footer>
   {{- end }}
   <a class="entry-link" aria-label="post link to {{ .Title | plainify }}" href="{{ .Permalink }}"></a>
