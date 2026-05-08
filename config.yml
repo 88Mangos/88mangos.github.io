@@ -87,6 +87,8 @@ params:
               url: coursework/
             - name: Projects
               url: projects/
+            - name: Resume
+              url: resume/
             # - name: PLACEHOLDER
             #   url: path/to/placeholder/
 
