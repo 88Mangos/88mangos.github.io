@@ -87,6 +87,8 @@ params:
               url: coursework/
             - name: Projects
               url: projects/
+            - name: Algorithms
+              url: algos/
             - name: Resume
               url: resume/
             # - name: PLACEHOLDER
@@ -117,7 +119,7 @@ markup:
 
     highlight: # code highlighting 
         guessSyntax: true # auto detect language
-        style: autumn 
+        style: onedark 
 
     tableOfContents: 
         endLevel: 3
