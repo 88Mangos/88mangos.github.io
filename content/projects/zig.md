@@ -2,8 +2,8 @@
 title: "Learning Zig via Ziglings"
 description: "Learning a cool programming language"
 date: 2026-05-08
-updated: 2026-05-08
-status: completed up to 058_quiz7
+updated: 2026-05-09
+status: completed (115 exercises)
 ShowToc: true
 TocOpen: true  # Optional: Keep it open by default
 ---
@@ -38,6 +38,13 @@ I think it's cool that structs can have associated methods and basically act as 
 
 *In summary, they are "objects" in the sense that they act as containers for data and behavior, but they are not "objects" in the context of traditional class-based, runtime-heavy OOP.*
 
+## Testing inside the file
+Comptime was cool, but as someone who had to write the PowerLab autograder in SML, this in-file testing framework seems absolutely amazing. No need for a `Tests` module to be imported, which is a functor that takes in the student's submission for the module for the associated lab - everything is now in one place. 
+
+Thus far, given my 411 and 312 experience, it seems like: 
+1. it would be very intuitive to write a compiler for Zig, as the explicit blocks as expressions and other rules seem very neat (hence why they have a grammar specification that is only 580 lines long)
+2. the creator (using the benefit of hindsight) has axed all the stupidity of existing languages (null pointers and the like)
+3. been very intentional about the design choices. So far I have very few gripes (*granted, I am by no means a reputable authority on programming language ergonomics*) and that's surprising to me considering I've almost always had a complaint about a language I've used.
 
 # Gripes I have 
 
