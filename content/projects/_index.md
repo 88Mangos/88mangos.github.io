@@ -38,3 +38,24 @@ A summary of course final projects and research. Notably, I've omitted projects 
 - 99-270: Summer research, synthetic data generation of chemical reaction diagrams
 - 02-181 Course Project: Modifying DADA2
 - 21-241 Course Project: PageRank vs. HITS Analysis
+
+# Ideas and WIP
+
+As I work on course projects and general software things, I think developer tools are nice projects that seem small but really increase the quality of life. I'm glad that Ron Minsky agrees (*c.f., 411 S26 guest lecture*). 
+
+## Auto-Formatters are Great
+I think some of my most enjoyable programming experiences were using Go for the first time for AWAP 26 server development - Go's very opiniated auto-formatter (which also alphabetizes your imports!!) was just great for reducing my cognitive burden.
+
+I will say that the OCaml Jane Street profile for autoformatting was considerably more annoying, as it had this habit of squashing any unnecessary line breaks. So while I like Jane Street OCaml's heavy usage of named arguments (`~f` and `~init` for list folds for example), I really felt like writing the 411 compiler was reading just a ginormous wall of OCaml text. It doesn't help either that OCaml forces repeated `let...in...` unlike SML which has let-binding blocks `let...in...end`. Multiple declarations in a let get annoying because then it becomes like a tuple declaration, and that's annoying as hell to extend because if you have like 10 of those, you have to make sure you match up where you want to add a new declaration. And if declarations depend on each other it's even more annoying.
+
+## Contracts are Frustrating
+Another frustrating experience was writing Python contracts while I was doing my AP Research project. In general Python and ML-related libraries (PyTorch, NumPy) are so annoying because of the broadcasting rules and shape mismatches. Just way too much cognitive overhead to write some code.
+
+## People can't name things
+Write own programming language that is just the semantically meaningful counterpart of parallel CPP. For example, `transform` becomes `map`, and C++ `map` becomes `dictionary` as it should have always been. `option` should exist as a type - SML did good there.
+
+## Other cool aspirational goals
+- Contribute to LLVM somehow?
+- Rewrite 411 compiler, but in C++20, 23, or 26 so I can use concepts and shit 
+
+Anyways, onto my ideas.
