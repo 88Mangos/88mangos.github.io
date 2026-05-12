@@ -59,3 +59,9 @@ Write own programming language that is just the semantically meaningful counterp
 - Rewrite 411 compiler, but in C++20, 23, or 26 so I can use concepts and shit 
 
 Anyways, onto my ideas.
+
+# WIP
+
+## Shelved Projects
+- `Jstarb`, a job tracker in Zig. I threw in the towel because I would essentially just be replicating my Google Sheet, but much worse... and there aren't any fun systems programming things since the whole thing was going to run locally as a single-threaded application. 
+- `tpp`, solely because I wanted to try out Zig instead of dealing with C++.
