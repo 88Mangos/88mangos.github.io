@@ -8,6 +8,8 @@ ShowToc: true
 TocOpen: true  # Optional: Keep it open by default
 ---
 
+***NOTE: THIS PROJECT HAS BEEN SHELVED***
+
 I'm going to chronicle the experience of porting my job application tracker from Google Sheets to a custom Zig app. 
 
 I went ahead and completed Ziglings before starting and I'm referencing it as I go. I'm using zero coding agents, and using Google Gemini (and the Notebooks feature) as a brainstorming tool to bounce ideas off of and to critique my design choices.
