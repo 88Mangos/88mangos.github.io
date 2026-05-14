@@ -96,6 +96,8 @@ params:
               url: algos/
             - name: Resume
               url: resume/
+            - name: Other
+              url: other/
             # - name: PLACEHOLDER
             #   url: path/to/placeholder/
 
