@@ -92,8 +92,11 @@ params:
               url: coursework/
             - name: Projects
               url: projects/
-            - name: Algorithms
-              url: algos/
+            # - name: Algorithms 
+              # url: algos/
+            # deprecating because I don't think it's productive (and I also find it a little performative)
+            # to create editorials for every LC problem I solve + sticking to this habit is way too cumbersome
+            # especially when actual work or school kicks in.
             - name: Resume
               url: resume/
             - name: Other
