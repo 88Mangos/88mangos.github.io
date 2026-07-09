@@ -90,8 +90,8 @@ params:
           buttons:
             - name: Coursework
               url: coursework/
-            - name: Projects
-              url: projects/
+            # - name: Projects
+            #   url: projects/
             # - name: Algorithms 
               # url: algos/
             # deprecating because I don't think it's productive (and I also find it a little performative)
@@ -99,8 +99,8 @@ params:
             # especially when actual work or school kicks in.
             - name: Resume
               url: resume/
-            - name: Other
-              url: other/
+            # - name: Other
+            #   url: other/
             # - name: PLACEHOLDER
             #   url: path/to/placeholder/
 
