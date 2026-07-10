@@ -109,6 +109,8 @@ params:
           url: https://github.com/88Mangos
         - name: LinkedIn
           url: https://www.linkedin.com/in/tyler-j-yang/
+        - name: Google Scholar
+          url: https://scholar.google.com/citations?user=oRAc9acAAAAJ
         # - name: Email
         #   url: mailto:tylery[at]andrew[dot]cmu[dot]edu
 
