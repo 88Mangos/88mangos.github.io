@@ -3,7 +3,7 @@ title: "Resume"
 ---
 
 # Resume
-Last updated on May 7th, 2026. [Download PDF](/Tyler-Yang-Resume.pdf)
+Last updated on Aug 9th, 2026. [Download PDF](/Tyler-Yang-Resume.pdf)
 
 <iframe
   src="/Tyler-Yang-Resume.pdf"
