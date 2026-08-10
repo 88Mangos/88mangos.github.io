@@ -87,7 +87,7 @@ params:
           imageUrl: "picture.png"
           imageWidth: 160
           imageHeight: 160
-          buttons:
+          # buttons:
             # - name: Coursework
             #   url: coursework/ # now hidden
             # - name: Projects
@@ -97,8 +97,8 @@ params:
             # deprecating because I don't think it's productive (and I also find it a little performative)
             # to create editorials for every LC problem I solve + sticking to this habit is way too cumbersome
             # especially when actual work or school kicks in.
-            - name: Resume
-              url: resume/
+            # - name: Resume # moved to socialIcons
+            #   url: resume/
             # - name: Other
             #   url: other/
             # - name: PLACEHOLDER
@@ -111,6 +111,8 @@ params:
           url: https://www.linkedin.com/in/tyler-j-yang/
         - name: Google Scholar
           url: https://scholar.google.com/citations?user=oRAc9acAAAAJ
+        - name: Resume
+          url: /Tyler-Yang-Resume.pdf
         # - name: Email
         #   url: mailto:tylery[at]andrew[dot]cmu[dot]edu
 
