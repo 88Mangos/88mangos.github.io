@@ -3,7 +3,15 @@ title: "Coursework"
 description: "Taking and teaching courses at CMU"
 ShowToc: true
 TocOpen: true  # Optional: Keep it open by default
+# Keep this thing hidden
+draft: false
+sitemap:
+  disable: true
+_build:
+  list: never
 ---
+
+*Why is this page not accessible from the home page?* Because it's just a word dump from me and I'm not tryna have random people reading shit in my writer's voice, which is not the same as my everyday voice. Plus it's lwk annoying when ppl find this shit.
 
 **How to Read This:** from top-to-bottom, my semesters are in reverse chronological order. I will provide some context here at the top for your reading pleasure. 
 

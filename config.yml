@@ -88,8 +88,8 @@ params:
           imageWidth: 160
           imageHeight: 160
           buttons:
-            - name: Coursework
-              url: coursework/
+            # - name: Coursework
+            #   url: coursework/ # now hidden
             # - name: Projects
             #   url: projects/
             # - name: Algorithms 
